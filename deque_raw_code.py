@@ -1,6 +1,6 @@
 import collections
 from scipy.ndimage import gaussian_filter
-from uwb_subscriber import MqttSubscriber
+from src.uwb_subscriber import MqttSubscriber
 import time
 mqttSubscriber = MqttSubscriber("localhost", topic="top")
 mqttSubscriber.start()
