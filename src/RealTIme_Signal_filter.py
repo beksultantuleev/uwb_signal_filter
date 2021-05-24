@@ -151,6 +151,7 @@ class Signal_filter():
 if __name__ == "__main__":
     test = Signal_filter()
     while True:
-        print(test.lauch_std_filter(15, 1))
-        # print(test.lauch_gauss_filter(15, 5))
+        # print(test.lauch_std_filter(15, 1))
+        print(test.lauch_gauss_filter(15, 3))
         # print(test.lauch_mode_filter(15))
+        # print(test.mqttSubscriber.pos)
