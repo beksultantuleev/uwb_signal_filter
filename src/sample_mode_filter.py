@@ -66,5 +66,4 @@ if __name__ == '__main__':
     print(test.get_filtered_position())
     test.get_raw_list()
     "test"
-
     
