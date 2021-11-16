@@ -65,3 +65,4 @@ if __name__ == '__main__':
     test.mode_filter()
     print(test.get_filtered_position())
     test.get_raw_list()
+    
